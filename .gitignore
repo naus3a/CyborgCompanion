@@ -1,0 +1,46 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.so
+
+# Files for the ART/Dalvik VM
+/bin/
+/gen/
+/out/
+/proguard/
+# Keep this if you have a custom release build type that you want to check in.
+# /release/ 
+
+# Gradle files
+.gradle/
+/build/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Android Studio and IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+*.log.gz
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Android NDK
+# To ignore NDK build artifacts
+/obj/
+.externalNativeBuild
