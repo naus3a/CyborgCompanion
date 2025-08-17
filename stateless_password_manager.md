@@ -18,5 +18,5 @@ You want a password for your account at `randomwebsite.com`? Just type `youruser
 
 ## How it works
 I use [ykdroid](https://github.com/pp3345/ykDroid) to interact with the `HMAC-SHA1` applet on my [apex](https://vivokey.com/apex/) implant: 
-* first the applet takes the account string, adds a unique [salt](https://en.m.wikipedia.org/wiki/Salt_(cryptography) (that is generated inside the implant itself and can never leave the hardware) and computes an [hash](https://en.m.wikipedia.org/wiki/HMAC)
+* first the applet takes the account string, adds a unique [salt](https://en.m.wikipedia.org/wiki/Salt_(cryptography)) (that is generated inside the implant itself and can never leave the hardware) and computes an [hash](https://en.m.wikipedia.org/wiki/HMAC)
 * then the app renders the computed hash as a string of the desired length, making sure it contains at least 1 loweecase character, 1 uppercase charactwr, 1 digit, 1 symbol.
